@@ -17,7 +17,7 @@ public class App {
         System.out.println("Год выпуска: " + Financier.godVypuska());
         System.out.println();
 
-        System.out.println(robert.getName() + " " + robert.getSurname());
+        System.out.println(robert.getName() + "  " + robert.getSurname());
         System.out.println(theodore.getName() + " " + theodore.getSurname());
 
 
