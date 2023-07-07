@@ -9,10 +9,6 @@ public class Author {
         this.surname = surname;
     }
 
-    public String toString() {
-        return getName() + " " + getSurname();
-    }
-
     public String getName() {
         return this.name;
     }
@@ -32,5 +28,11 @@ public class Author {
     @Override
     public int hashCode() {
         return Objects.hash(name, surname);
+    }
+
+    @Override
+    public String toString() {
+        return name +
+                " " + surname;
     }
 }
